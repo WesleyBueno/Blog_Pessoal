@@ -13,11 +13,11 @@ export class AuthService {
   constructor(private http: HttpClient) { }
 
   logar(userLogin: UserLogin):Observable<UserLogin>{
-    return this.http.post<UserLogin>('http://192.168.99.100:9000',userLogin)
+    return this.http.post<UserLogin>('http://localhost:8080',userLogin)
   }
 
   cadastrar(user: User):Observable<User>{
-    return this.http.post<User>('http://192.168.99.100:9000',user)
+    return this.http.post<User>('http://localhost:8080',user)
   }
 
   btnSair(){
