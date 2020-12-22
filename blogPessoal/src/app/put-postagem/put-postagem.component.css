@@ -1,0 +1,45 @@
+.container{
+    background-color: rgb(42, 40, 46);
+    border-radius: 17px;
+}
+
+.container:hover{
+    box-shadow: 0px 0px 12px rgba(137, 18, 217, 0.959);
+}
+
+.container label{
+    margin-top: 20px;
+    color: rgb(248, 248, 248);
+}
+
+.cd a{
+    text-decoration: none;
+    color:  rgb(218, 231, 36);
+    transition: 0.4s;
+}
+
+.cd a:hover{
+    text-shadow: 0px 0px 12px rgba(232, 248, 4, 0.959);
+}
+
+button{
+    margin-bottom: 20px;
+}
+
+.btn{
+    border-color: rgb(161, 159, 159);
+    text-transform: uppercase;
+    font-weight: bold;
+    color:  rgb(161, 159, 159);
+    transition: 0.4s;
+    width: 200px;
+    
+}
+
+.btn:hover{
+
+    color: rgb(9, 192, 48);
+    text-shadow: 0px 0px 12px rgba(18, 217, 45, 0.959);
+    border-color: rgb(9, 192, 48);
+    box-shadow: 0px 0px 12px rgba(18, 217, 45, 0.959);
+}

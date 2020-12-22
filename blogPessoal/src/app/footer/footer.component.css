@@ -7,6 +7,12 @@ ul.social-network {
     padding: 0;
   }
   
+
+  .row h4{
+    color: rgb(248, 248, 248);
+    text-shadow: 0px 0px 12px rgba(255, 255, 255, 0.959);
+  }
+
   ul.social-network li {
     display: inline;
     margin: 0;
@@ -14,17 +20,19 @@ ul.social-network {
   }
   
   .faFacebook, .faLinkedin, .faInstagram{
-      color: white;
+      color: rgb(161, 159, 159);
+      transition: 0.4s;
   }
   
   .faFacebook:hover{
-    color: #3b5998;
+    color: #004df3;
+    
   }
   
   .faLinkedin:hover{
-  color: #0072b1;
+  color: #0047b1;
   }
   
   .faInstagram:hover{
-  color: #C13584;
+  color: #da1283;
   }

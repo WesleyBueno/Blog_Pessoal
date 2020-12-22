@@ -1,14 +1,145 @@
-p{
-    font-size: large;
+
+
+.bv h1{
+    color: rgb(248, 248, 248);
+    text-shadow: 0px 0px 12px rgba(255, 255, 255, 0.959);
 }
 
-.parallax {
-    background-image: url('https://i.imgur.com/PEoH72I.jpg');
-  
-    min-height: 500px;
-  
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+p{
+    font-size: large;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 12px rgba(255, 255, 255, 0.959);
+}
+
+
+/*INFO_SECTION CSS*/
+
+.infoSection{
+    height: 600px;
+}
+
+.infoSection p{
+    text-align: center;
+}
+
+
+
+.infoHeader{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.infoCards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0 40px 0;
+}
+
+.infoCards .card{
+    position: relative;
+    height: 370px;
+    width: 360px;
+    background:rgb(51, 49, 49) ;
+    box-shadow: 0 10px 22px rgba(0,0, 0,0.10);
+    transition: 0.4s;
+}
+
+.infoCards .one:hover{
+    box-shadow:0px 0px 12px rgba(232, 248, 4, 0.959) ;
+    
+}
+
+.infoCards .two:hover{
+    box-shadow: 0px 0px 12px rgba(18, 194, 217, 0.959)  ;
+}
+
+.infoCards .three:hover{
+    box-shadow: 0px 0px 12px rgba(18, 217, 45, 0.959)  ;
+}
+
+.infoCards h2{
+    color: #ebebeb;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.cardbgone{
+    height: 150px;
+    background-color:rgb(51, 49, 49);
+    transition: 0.4s;
+}
+
+
+
+.cardbgtwo{
+    height: 150px;
+    background-color:rgb(51, 49, 49) ;
+    transition: 0.4s;
+}
+
+
+
+.cardbgthree{
+    height: 150px;
+    background-color:rgb(51, 49, 49);
+    transition: 0.4s;
+}
+
+.cardContent{
+    padding: 0 20px;
+}
+
+.cardContent h2{
+    font-weight: 500;
+}
+
+.cardContent p{
+    line-height: 30px;
+    opacity: 0.6;
+}
+
+
+
+
+.btn{
+    border-color: rgb(161, 159, 159);
+    text-transform: uppercase;
+    font-weight: bold;
+    color:  rgb(161, 159, 159);
+    transition: 0.4s;
+    width: 200px;
+    margin-left: 55px;
+}
+
+.cardBtn .one:hover{
+    color: rgb(218, 231, 36);
+    text-shadow: 0px 0px 12px rgba(232, 248, 4, 0.959);
+    border-color: rgb(218, 231, 36);
+    box-shadow: 0px 0px 12px rgba(232, 248, 4, 0.959);
+}
+
+.cardBtn .two:hover{
+    color: rgb(7, 214, 214);
+    text-shadow: 0px 0px 12px rgba(18, 194, 217, 0.959);
+    border-color: rgb(7, 214, 214);
+    box-shadow: 0px 0px 12px rgba(18, 194, 217, 0.959);
+}
+
+.cardBtn .three:hover{
+    color: rgb(9, 192, 48);
+    text-shadow: 0px 0px 12px rgba(18, 217, 45, 0.959);
+    border-color: rgb(9, 192, 48);
+    box-shadow: 0px 0px 12px rgba(18, 217, 45, 0.959);
+}
+
+.btn:hover{
+    border-color: rgb(218, 231, 36);
+    box-shadow:0px 0px 12px rgba(232, 248, 4, 0.959)  ;
+    color: rgb(218, 231, 36);
+    text-shadow: 0px 0px 12px rgba(232, 248, 4, 0.959);
+}
+
+
+

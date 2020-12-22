@@ -1,32 +1,28 @@
-import { UserLogin } from './../model/UserLogin';
-import { Component, OnInit } from '@angular/core';
-import { AuthService } from '../service/auth.service';
-import { Router } from '@angular/router';
 
+import { Router } from '@angular/router';
+import { AuthService } from './../service/auth.service';
+import { Component, OnInit } from '@angular/core';
+import { environment } from 'src/environments/environment.prod';
+import { UserLogin } from '../model/UserLogin';
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent implements OnInit {
-
-  UserLogin: UserLogin = new UserLogin()
-
+  userLogin: UserLogin = new UserLogin()
   constructor(
     private authService: AuthService,
     private router: Router
   ) { }
-
-  ngOnInit(): void {
+  ngOnInit() {
   }
-
-  entrar(){
-    this.authService.logar(this.UserLogin).subscribe((resp: UserLogin) =>{
-      this.UserLogin= resp
-      localStorage.setItem('token',this.UserLogin.token)
+  entrar() {
+    this.authService.logar(this.userLogin).subscribe((resp: UserLogin) => {
+      this.userLogin = resp
+      environment.token=this.userLogin.token
       this.router.navigate(['/feed'])
-
     })
   }
-
 }
+

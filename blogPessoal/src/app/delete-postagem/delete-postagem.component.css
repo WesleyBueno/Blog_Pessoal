@@ -1,0 +1,53 @@
+.container{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: rgb(42, 40, 46);
+    border-radius: 17px;
+    transition: 0.4s;
+}
+
+.container:hover{
+    box-shadow: 0px 0px 12px rgba(217, 18, 118, 0.959);
+}
+
+.container label{
+    color: rgb(248, 248, 248);
+}
+
+.texto h5{
+    margin-top: 20px;
+    color: rgb(248, 248, 248);
+    text-shadow: 0px 0px 12px rgba(255, 255, 255, 0.959);
+}
+
+.sim .btn{
+    border-color: rgb(161, 159, 159);
+    text-transform: uppercase;
+    font-weight: bold;
+    color:  rgb(161, 159, 159);
+    transition: 0.4s;
+    width: 100px;
+}
+
+.sim .btn:hover{
+    color: rgb(9, 192, 48);
+    text-shadow: 0px 0px 12px rgba(18, 217, 45, 0.959);
+    border-color: rgb(9, 192, 48);
+    box-shadow: 0px 0px 12px rgba(18, 217, 45, 0.959);
+}
+
+.nao .btn{
+    border-color: rgb(161, 159, 159);
+    text-transform: uppercase;
+    font-weight: bold;
+    color:  rgb(161, 159, 159);
+    transition: 0.4s;
+    width: 100px;
+}
+
+.nao .btn:hover{
+    color: rgb(201, 12, 84);
+    text-shadow: 0px 0px 12px rgba(217, 18, 118, 0.959);
+    border-color:rgb(201, 12, 84);
+    box-shadow: 0px 0px 12px  rgba(217, 18, 118, 0.959);
+}

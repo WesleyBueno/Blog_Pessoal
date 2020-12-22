@@ -1,0 +1,47 @@
+.parallax {
+    background-image: url('https://images.hdqwalls.com/wallpapers/colorful-neon-city-4k-tx.jpg');
+
+    min-height: 500px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+}
+
+.text{
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: rgb(248, 248, 248);
+    text-shadow: 0px 0px 12px rgba(255, 255, 255, 0.959);
+    box-shadow: 0px 0px 12px rgba(255, 255, 255, 0.959) ;
+    font-weight: bold;
+    border: 2px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+.btn{
+    border-color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-weight: bold;
+    color:  rgb(255, 255, 255);
+    transition: 0.4s;
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 450px;
+}
+
+.btn:hover{
+    color: rgb(7, 214, 214);
+    text-shadow: 0px 0px 12px rgba(18, 194, 217, 0.959);
+    border-color: rgb(7, 214, 214);
+    box-shadow: 0px 0px 12px rgba(18, 194, 217, 0.959);
+}

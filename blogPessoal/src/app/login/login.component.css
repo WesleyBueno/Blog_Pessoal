@@ -1,0 +1,41 @@
+.container{
+    background-color: rgb(42, 40, 46);
+    border-radius: 17px;
+    transition: 0.4s;
+}
+
+.container:hover{
+    box-shadow: 0px 0px 12px rgba(217, 18, 207, 0.959);
+}
+
+.container h1{
+    margin-top: 20px;
+    color: rgb(248, 248, 248);
+    text-shadow: 0px 0px 12px rgba(255, 255, 255, 0.959);
+}
+
+.container small,label{
+    color: rgb(248, 248, 248);
+}
+
+button{
+    margin-bottom: 20px;
+}
+
+.btn{
+    border-color: rgb(161, 159, 159);
+    text-transform: uppercase;
+    font-weight: bold;
+    color:  rgb(161, 159, 159);
+    transition: 0.4s;
+    width: 200px;
+    
+}
+
+.btn:hover{
+
+    color: rgb(201, 12, 169);
+    text-shadow: 0px 0px 12px rgba(217, 18, 207, 0.959);
+    border-color: rgb(201, 12, 169);
+    box-shadow: 0px 0px 12px rgba(217, 18, 207, 0.959);
+}

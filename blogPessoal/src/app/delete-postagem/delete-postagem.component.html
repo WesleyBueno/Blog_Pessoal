@@ -28,11 +28,19 @@
             </div>
 
             <hr class="mt-4 mb-4">
+            <div class="texto">
+                <h5 class="text-center">Tem certeza que deseja apagar essa postagem?</h5>
+            </div>
 
-            <h5 class="text-center">Tem certeza que deseja apagar essa postagem?</h5>
             <div class="d-flex justify-content-center mt-5">
-                <button class="btn btn-outline-success mr-3" (click)="btnSim()">Sim</button>
-                <button class="btn btn-outline-danger mr-3" (click)="btnNao()">Não</button>
+                <div class="sim">
+                    <button class="btn  mr-3" (click)="btnSim()">Sim</button>
+                </div>
+                <div class="nao">
+                    <button class="btn  mr-3" (click)="btnNao()">Não</button>
+                </div>
+
+
 
             </div>
         </div>

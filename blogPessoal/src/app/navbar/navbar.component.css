@@ -1,3 +1,4 @@
+
 .texto{
     letter-spacing: .2rem;
     font-size: 16pt;
@@ -5,4 +6,30 @@
 
 a{
     cursor: pointer;
+    text-decoration: none;
+    color: rgb(161, 159, 159);
+    transition: 0.4s;
+    
+}
+
+.home a:hover{
+    color: rgb(7, 214, 214);
+    text-shadow: 0px 0px 12px rgba(18, 194, 217, 0.959);
+}
+
+.feed a:hover{
+    color: rgb(218, 231, 36);
+    text-shadow: 0px 0px 12px rgba(232, 248, 4, 0.959);
+}
+.login a:hover{
+    color: rgb(201, 12, 169);
+    text-shadow: 0px 0px 12px rgba(217, 18, 207, 0.959);
+}
+.cadastro a:hover{
+    color: rgb(9, 192, 48);
+    text-shadow: 0px 0px 12px rgba(18, 217, 45, 0.959);
+}
+.sair a:hover{
+    color: rgb(214, 7, 86);
+    text-shadow: 0px 0px 12px rgba(217, 18, 94, 0.959);
 }

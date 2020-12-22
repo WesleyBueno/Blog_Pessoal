@@ -2,16 +2,17 @@ import { CadastroComponent } from './cadastro/cadastro.component';
 import { LoginComponent } from './login/login.component';
 import { FeedComponent } from './feed/feed.component';
 import { HomeComponent } from './home/home.component';
-import { NgModule } from '@angular/core';
+import { NgModule, Component } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { PostTemaComponent } from './post-tema/post-tema.component';
 import { PutPostagemComponent } from './put-postagem/put-postagem.component';
 import { DeletePostagemComponent } from './delete-postagem/delete-postagem.component';
 import { PutTemaComponent } from './put-tema/put-tema.component';
 import { DeleteTemaComponent } from './delete-tema/delete-tema.component';
+import { LandingComponent } from './landing/landing.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: 'home', pathMatch: 'full'},
+  { path: '', redirectTo: 'landing', pathMatch: 'full'},
   { path: 'home', component: HomeComponent},
   { path: 'feed', component: FeedComponent},
   { path: 'login', component: LoginComponent},
@@ -20,7 +21,8 @@ const routes: Routes = [
   { path: 'editar-post/:id', component: PutPostagemComponent},
   { path: 'delete-post/:id', component: DeletePostagemComponent},
   { path: 'editar-tema/:id', component: PutTemaComponent},
-  { path: 'delete-tema/:id', component: DeleteTemaComponent}
+  { path: 'delete-tema/:id', component: DeleteTemaComponent},
+  { path: 'landing', component: LandingComponent}
 ];
 
 @NgModule({
